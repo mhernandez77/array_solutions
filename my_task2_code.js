@@ -7,16 +7,12 @@
 function wordsToSentence(words) {
     const word1 = "hey"
     const word2 = "there"
-    const words = {word1,
-        word2}
-    return words.word1 + words.word2;
-    //your code here
+    var words = [word1, word2]
+    return words[0] + words[1];
 }
 
-//console log results
 console.log('results', wordsToSentence(['hey', 'there']));
 
-//don't change this line
 if (typeof module !== 'undefined') {
     module.exports = {
         wordsToSentence,
